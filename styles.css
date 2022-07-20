@@ -32,6 +32,16 @@ label, p {
     font-size: 12px;
 }
 
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -35px;
+    /* resize the logo */
+    width: 140px;
+    height: auto; 
+}
+
 fieldset {
     border: none; /*removes the borders */
     border-bottom: 3px solid rgb(186,176,69);
