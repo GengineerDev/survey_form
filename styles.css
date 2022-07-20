@@ -27,3 +27,7 @@ fieldset {
     border-bottom: 3px solid rgb(186,176,69);
 }
 
+/* removes the bottom border of the last fieldset using a CSS pseudo-class */
+fieldset:last-of-type{
+    border-bottom: none;
+}
