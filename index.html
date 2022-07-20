@@ -10,7 +10,7 @@
 <body>
     <div class="main-form">
         <!-- This will be for making the shape of the survey form. -->
-        <h1 id="title">Assembly for Collective Engagements Survey Form</h1>
+        <h1 id="title">ACE Survey Form</h1>
         <p id="description">Thank you for taking your time to improve the way we handle our future events by taking this survey. The data we collect will be subjet to the Data Privacy Act of 2012.</p>
         <main>
             <!-- Main content of the form -->
@@ -22,6 +22,14 @@
                     <label id="email-label">Email<input type="email" id="email" placeholder="Enter your email" required></label>
                     <!-- span class here for optional -->
                     <label id="number-label">Age <span class="optional">(optional)</span><input type="number" id="number" min="13" max="30" placeholder="Age" required></label>
+                    <label>Grade Level
+                        <select id="dropdown">
+                            <option>(select one)</option>
+                            <option>Grade 9</option>
+                            <option>Grade 10</option>
+                            <option>Other</option>
+                        </select>
+                    </label>
                 </fieldset>
                 
             </form>
