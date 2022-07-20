@@ -20,7 +20,7 @@
                     <label id="name-label">Name<input type="text" id="name" placeholder="Enter your name" required></label>
                     <label id="email-label">Email<input type="email" id="email" placeholder="Enter your email" required></label>
                     <!-- span class here for optional -->
-                    <label id="number-label">Age <span class="optional">(optional)</span><input type="number" id="number" min="13" max="30" placeholder="Age" required></label>
+                    <label id="number-label">Age <span class="small">(optional)</span><input type="number" id="number" min="13" max="30" placeholder="Age" required></label>
                     <label>Grade Level
                         <select id="dropdown">
                             <option>(select one)</option>
@@ -33,10 +33,16 @@
                 <fieldset>
                     <h3>Part 2: Preference</h3>
                     <p>Would you recommend us to your friends?</p>
-                    <label ></label>
-                    
-                </fieldset>
-                
+                    <label><input type="radio" name="recommend-type">Yes</label>
+                    <label><input type="radio" name="recommend-type">No</label>
+                    <label><input type="radio" name="recommend-type">Maybe</label>
+                    <p>What would you like to see improved? <span class="small">(Check all that apply)</span></p>
+                    <label><input type="checkbox" value="sound-system">Sound system</label>
+                    <label><input type="checkbox" value="resource-speaker-quality">Resource Speaker Quality</label>
+                    <label><input type="checkbox" value="time-schedule">Time Schedule</label>
+                    <label><input type="checkbox" value="breakroom-activities">Breakroom Activities</label>
+                    <label><input type="checkbox" value="learning-materials">Learning Materials</label>
+                </fieldset>                
             </form>
         </main>
     </div>
