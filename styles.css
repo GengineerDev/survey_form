@@ -52,3 +52,15 @@ fieldset:last-of-type{
     display: block;
     margin: 3px 0;
 }
+
+#submit {
+    display: block; /* required to center the button */
+    margin: 0 auto;
+    background-color: darkblue;
+    border: 2px solid white;
+    padding: 8px;
+    color: yellow;
+    font-size: 14px;
+    min-width: 200px; /* this stretches the buton */
+
+}
