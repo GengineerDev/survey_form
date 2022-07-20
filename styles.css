@@ -41,3 +41,8 @@ fieldset {
 fieldset:last-of-type{
     border-bottom: none;
 }
+
+#name, #email, #number, textarea{
+    display: block;
+    width: 100%;
+}
