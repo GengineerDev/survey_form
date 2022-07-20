@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACE Survey Form</title>
+</head>
+<body>
+    <div class="main-form">
+        <!-- This will be for making the shape of the survey form. -->
+        <h1 id="title">Assembly for Collective Engagements Survey Form</h1>
+        <p id="description">Thank you for taking your time to improve the way we handle our future events by taking this survey. The data we collect will be subjet to the Data Privacy Act of 2012.</p>
+        <main>
+            <!-- Main content of the form -->
+            <form id="survey-form">
+                <fieldset>
+                    <!-- put .title-parts in CSS -->
+                    <h3 class="title-parts">Part 1: Basic Information</h3>
+                    <label id="name-label">Name<input type="text" id="name" placeholder="Enter your name" required></label>
+                    <label id="email-label">Email<input type="email" id="email" placeholder="Enter your email" required></label>
+                    <!-- span class here for optional -->
+                    <label id="number-label">Age <span class="optional">(optional)</span><input type="number" id="number" min="13" max="30" placeholder="Age" required></label>
+                </fieldset>
+                
+            </form>
+        </main>
+    </div>
+</body>
+</html>
