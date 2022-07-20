@@ -33,9 +33,9 @@
                 <fieldset>
                     <h3>Part 2: Preference</h3>
                     <p>Would you recommend us to your friends?</p>
-                    <label><input type="radio" name="recommend-type">Yes</label>
-                    <label><input type="radio" name="recommend-type">No</label>
-                    <label><input type="radio" name="recommend-type">Maybe</label>
+                    <label><input type="radio" name="recommend-type" value="yes">Yes</label>
+                    <label><input type="radio" name="recommend-type" value="no">No</label>
+                    <label><input type="radio" name="recommend-type" value="maybe">Maybe</label>
                     <p>What would you like to see improved? <span class="small">(Check all that apply)</span></p>
                     <label><input type="checkbox" value="sound-system">Sound system</label>
                     <label><input type="checkbox" value="resource-speaker-quality">Resource Speaker Quality</label>
@@ -45,8 +45,9 @@
                 </fieldset>
                 <fieldset>
                     <h3>Part 3: Recommendations</h3>
-                    <label>Any comments or suggestions?<textarea name="suggestions" rows="3" cols="30" placeholder="Enter your comment here..."></label>
-                </fieldset>                
+                    <label>Any comments or suggestions?<textarea name="suggestions" rows="3" cols="30" placeholder="Enter your comment here..."></textarea></label>
+                </fieldset>
+                <input type="submit" id="submit">                
             </form>
         </main>
     </div>
